@@ -3,6 +3,7 @@ html {
     background-size:40px,cover,cover;
     background-repeat: repeat,no-repeat,no-repeat;
     background-color: rgb(0, 0, 0);
+    background-attachment: fixed;
 }
 
 body{
@@ -14,6 +15,10 @@ body{
     height: 100vh;
 
     font-family:monospace;
+}
+
+h3{
+    color:pink;
 }
 
 .content{
@@ -44,8 +49,8 @@ body{
 
     align-items: center;
 
-    border-top: pink 1px dashed;
-    border-bottom: rgb(20, 20, 20) 20px solid;
+    border-top: pink 2px dashed;
+    border-bottom: rgb(31, 31, 31) 10px solid;
 }
 
 .welcome {
@@ -59,11 +64,11 @@ ul{
 }
 
 a{
-    color:pink;
+    color:rgb(226, 135, 214);
     text-decoration-style: dashed;
 }
 a:hover{
-    color:rgba(255, 192, 203, 0.5);
+    color:rgba(226, 135, 214, 0.589);
     text-decoration-style: solid;
 }
 
@@ -88,6 +93,7 @@ li{
     padding:5px;
     justify-content: center;
     background-color: pink;
+    border-top:2px rgb(0, 0, 0) solid;
 }
 
 .footer nav{
