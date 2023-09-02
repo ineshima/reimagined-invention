@@ -1,3 +1,10 @@
+html {
+    background-image:url(../../images/dots.png),url(../../images/bg-translucent.png),linear-gradient(180deg,rgb(20, 20, 20),black);
+    background-size:40px,cover,cover;
+    background-repeat: repeat,no-repeat,no-repeat;
+    background-color: rgb(0, 0, 0);
+}
+
 body{
     display:flex;
     margin:0px;
@@ -19,7 +26,6 @@ body{
 
 
     justify-content: center;
-    background-color:rgb(14, 14, 14);
     color:rgb(255, 242, 253);
 
     align-items:center;
